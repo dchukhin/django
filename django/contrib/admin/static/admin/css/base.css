@@ -107,6 +107,10 @@ a:link, a:visited {
     transition: color 0.15s, background 0.15s;
 }
 
+a.reference {
+    text-decoration: underline;
+}
+
 a:focus, a:hover {
     color: var(--link-hover-color);
 }
